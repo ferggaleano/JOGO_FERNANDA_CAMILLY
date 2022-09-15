@@ -20,6 +20,17 @@
     
 }
 
+.animar{
+    animation: personagem 500ms infinite;
+}
+
+@keyframes personagem{
+    0%{top: 150px;}
+    30%{top: 100px;}
+    70%{top: 100px;}
+    100%{top: 150px;}
+}
+
 #quadrado{
     width: 20px;
     height: 20px;
@@ -27,5 +38,10 @@
     position: relative;
     top: 130px;
     left: 380px;
-    
+    animation: quadrado 1s infinite linear;
+}
+
+@keyframes quadrado{
+    0%{left: 480px;}
+    100%{left: -40px;}
 }
