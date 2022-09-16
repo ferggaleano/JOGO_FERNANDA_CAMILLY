@@ -21,7 +21,7 @@ var testarColisao = setInterval( function(){
           if(EsquerdaQuadrado < 20 && EsquerdaQuadrado > 0 && topoPersonagem >= 130){
            quadrado.style.animation = 'none'
            quadrado.style.display = 'none'
-           alert('Que pena!!! Prof você perdeu!')
+           alert('Vixii, que ruim!!! Você perdeu!!!')
        }
        
    
