@@ -10,3 +10,4 @@ function pular(){
         personagem.classList.remove('animar')
     }, 500)
 }
+var testarColisao = setInterval( function(){})
