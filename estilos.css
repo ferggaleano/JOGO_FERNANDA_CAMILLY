@@ -5,10 +5,12 @@
 
 #game{
     width: 400px;
+    padding: 0 35px;
     height: 200px;
     border: 2px solid black;
     align-items: center;
     background-color: azure;
+    margin: 0 auto;
 }
 
 #personagem{
@@ -17,7 +19,6 @@
     background-color: plum;
     position: relative;
     top: 150px;
-    
 }
 
 .animar{
